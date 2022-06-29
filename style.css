@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.header {
+  width: 1440px;
+  height: 90px;
+  background-color: rgba(242, 120, 92, 0.7);
+  display: flex;
+  box-shadow: 0 2px 20px 0 #0D606F;
+}
+
+body {
+  background-image: url(/assets/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg);
+  background-repeat: no-repeat;
+}
+
+.logo-portal {
+width: 216px;
+height: 31px;
+margin: 25px 158px 32px 120px;
+}
+
+.navigation {
+  width: 527px;
+  height: 21px;
+  margin-top: 35px;
+  margin-bottom: 34px;
+}
+.nav-list li {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 1 !important;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+li {
+  list-style-type: none;
+}
+
+.login {
+  width: 103px;
+  height: 41px;
+  margin: 25px 120px 24px 226px;
+  background-color: #0D606F;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 ;
+}
+.login p {
+  font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.plan-trip {
+  margin: 32px 428px 301px 120px;
+
+}
+
+.explore {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
